@@ -12,6 +12,6 @@ bs4obj = BeautifulSoup(response.text, 'lxml')
 get = bs4obj.find('div', class_='content1 active')
 get = get.find('tr')
 
-resultado = get.text
+result = get.text
 
-print(resultado)
+print(result)
